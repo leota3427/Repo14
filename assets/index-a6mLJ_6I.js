@@ -14809,7 +14809,7 @@ function JA() {
             },
           },
           children: L.jsxs("div", {
-            className: "backgroundfb p-5",
+            className: "backgroundfb p-5 mx-1",
             children: [
               L.jsx("div", {
                 className: "text-right",
@@ -53646,7 +53646,7 @@ function X8() {
         }),
         L.jsx("div", {
           className:
-            "col-span-12 lg:col-span-8 border-l-[1px] border-[#DEE3E9] md:pl-[35px] pt-3",
+            "col-span-12 lg:col-span-8 border-l-[1px] border-[#DEE3E9] md:pl-[35px]",
           children: L.jsx(JA, {}),
         }),
       ],
