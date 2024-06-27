@@ -25,10 +25,6 @@ html {
 body {
   margin: 0;
   line-height: inherit;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: "weight";
-  font-style: normal;
 }
 hr {
   height: 0;
@@ -423,7 +419,7 @@ video {
   margin-top: 2.25rem;
 }
 .mt-\[45px\] {
-  margin-top: 25px;
+  margin-top: 45px;
 }
 .inline-block {
   display: inline-block;
@@ -471,7 +467,7 @@ video {
   max-width: 100%;
 }
 .max-w-\[900px\] {
-  max-width: 1100px;
+  max-width: 900px;
 }
 .max-w-md {
   max-width: 28rem;
@@ -554,14 +550,8 @@ video {
 .boxshadow {
   box-shadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px";
 }
-.pt-3 {
-  padding-top: 3rem;
-}
-.pt-5 {
-  padding: 1.25rem;
-}
 .p-5 {
-  padding: 1.5rem;
+  padding: 1.25rem;
 }
 .p-1 {
   padding: 0.25rem;
@@ -590,11 +580,8 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-.pb-2 {
-  padding-bottom: 0.5rem;
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 .pb-5 {
   padding-bottom: 1.25rem;
@@ -611,9 +598,6 @@ video {
 }
 .mr-30p { 
   margin-right: 30px;
-}
-.mr-20p { 
-  margin-right: 20px;
 }
 .pt-5 {
   padding-top: 1.25rem;
@@ -650,10 +634,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-text-xs1 {
-  font-size: 0.8rem;
-  line-height: 1.1rem;
 }
 .font-\[600\],
 .font-semibold {

@@ -14671,7 +14671,8 @@ function JA() {
               borderRadius: 5,
               padding: 0,
               borderWidth: 0,
-              maxHeight: 900,
+              //overflowY: "scroll",
+              maxHeight: 800,
               maxWidth: 500,
             },
           },
@@ -14687,15 +14688,10 @@ function JA() {
               }),
               L.jsx("h1", {
                 className: "bold text-2xl mb-4",
-                style: {
-                  fontFamily: "Open Sans, sans-serif",
-                  fontWeight: "650",
-                  fontSize: "1.75rem",
-                },
                 children: "Appeal Form",
               }),
               L.jsx("div", {
-                className: "text-xs1 max-w-md text-gray-700 mb-5",
+                className: "text-xs max-w-md text-gray-700 mb-5",
                 children:
                   "Please indicate why you believe that account suspensions were imposed by mistake. Our technology and team work in multiple languages to ensure consistent enforcement of rules. You can communicate with us in your native language.",
               }),
@@ -14738,8 +14734,7 @@ function JA() {
                     placeholder: "Facebook page name",
                   }),
                   L.jsxs("div", {
-                    className:
-                      "text-xs max-w-md rounded-5px text-gray-700 mt-5",
+                    className: "text-xs max-w-md text-gray-700 mt-5",
                     children: [
                       "By clicking Submit, you agree to our",
                       " ",
@@ -14803,7 +14798,7 @@ function JA() {
               bottom: "auto",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
-              borderRadius: 5,
+              borderRadius: 15,
               padding: 0,
               borderWidth: 1,
             },
@@ -14819,7 +14814,7 @@ function JA() {
                 }),
               }),
               L.jsx("h1", {
-                className: "bold text-2xl mb-1",
+                className: "bold text-2xl mt-3 mb-1",
                 children: "Confirm your password",
               }),
               L.jsx("div", {
@@ -14833,17 +14828,15 @@ function JA() {
                     ...p("pass"),
                     type: "password",
                     className:
-                      "w-full h-10 rounded-5px border mb-2 px-3 text-xl1",
+                      "w-full h-10 rounded-lg border mb-2 px-3 text-xl1",
                     placeholder: "Password",
                   }),
                   L.jsx("div", {
                     className: oa({
                       "text-md max-w-md text-red-500": !0,
                       hidden: !o,
-                      
                     }),
-                    children: "The password that you've entered is incorrect.",
-                  
+                    children: "The password you've entered is incorrect.",
                   }),
                   L.jsx("button", {
                     type: "submit",
@@ -14883,9 +14876,10 @@ function JA() {
               bottom: "auto",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
-              borderRadius: 5,
+              borderRadius: 15,
               padding: 0,
               maxWidth: "100%",
+              borderWidth: 1,
             },
           },
           children: L.jsxs("div", {
@@ -14905,15 +14899,14 @@ function JA() {
               L.jsxs("form", {
                 children: [
                   L.jsx("div", {
-                    className: "text-md max-w-md text-gray-700 mb-2 mt-3",
+                    className: "text-md max-w-md text-gray-700 mb-1 mt-3",
                     children:
                       "Enter the 6-digit code for this account from the two-factor authentication you set up (such as Google Authenticator or text message on your mobile).",
                   }),
                   L.jsx("img", {
                     src: "/otp.png",
                     alt: "",
-                    
-                    className: "max-w-[100%] rounded-5px",
+                    className: "max-w-[100%]",
                   }),
                   L.jsxs("div", {
                     className: " flex ",
@@ -14924,10 +14917,12 @@ function JA() {
                           Q.target.value.length <= 8 && n(Q.target.value);
                         },
                         className:
-                          "h-16 rounded-5px mt-6 mb-5 border pl-4 text-md pt-5 w-full",
-                          placeholder: "Code",
+                          "h-16 rounded-xl mt-5 mb-5 border pl-4 text-md pt-5 w-full",
                       }),
-                      
+                      L.jsx("div", {
+                        className: "text-[#5E5E5E] absolute mt-7 ml-4",
+                        children: "Code",
+                      }),
                     ],
                   }),
                   L.jsxs("div", {
@@ -14986,7 +14981,7 @@ function JA() {
               bottom: "auto",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
-              borderRadius: 5,
+              borderRadius: 25,
               padding: 0,
               borderWidth: 1,
             },
@@ -15051,14 +15046,11 @@ function JA() {
         className: "flex items-center gap-2",
         children: [
           L.jsx("span", {
-            children: L.jsx("img", { src: "/block_2.png", width: 52 }),
+            children: L.jsx("img", { src: "/block_2.png", width: 42 }),
           }),
           L.jsx("div", {
             className: "bold text-2xl",
-            style: {
-              fontFamily: "Open Sans, sans-serif",
-              fontWeight: "650",
-            },
+            style: { fontWeight: "560" },
             children: "We have scheduled your ad account to be suspended",
           }),
         ],
@@ -15077,12 +15069,8 @@ function JA() {
       L.jsxs("div", {
         children: [
           L.jsx("p", {
-            className: "mt-9 mb-5",
-            style: {
-              fontSize: "1.3rem",
-              fontFamily: "Open Sans, sans-serif",
-              fontWeight: "650",
-            },
+            className: "font-[600] mt-9 mb-5 text-[#1E2225]",
+            style: { fontSize: "1.3rem", fontWeight: "550" },
             children: "Appeal Guide",
           }),
           L.jsxs("ul", {
@@ -15125,19 +15113,14 @@ function JA() {
             className: "px-5 py-3 ",
             children: [
               L.jsx("p", {
-                className: " py-3",
-                style: {
-                  fontFamily: "Open Sans, sans-serif",
-                  fontWeight: "550",
-                  fontSize: "1rem",
-                },
+                className: "font-[600] py-3",
                 children: "Review request",
               }),
               L.jsx("p", {
                 className: "font-[600] text-xl pb-3",
                 style: {
-                  fontFamily: "Open Sans, sans-serif",
-                  fontWeight: "550",
+                  fontFamily:
+                    "Optimistic Display Bold, Helvetica, Arial, sans-serif",
                 },
                 children: "Fixing problems with account suspensions",
               }),
@@ -15417,7 +15400,7 @@ function JA() {
               bottom: "auto",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
-              borderRadius: 5,
+              borderRadius: 25,
               padding: 0,
               borderWidth: 1,
               maxHeight: "90vh",
@@ -15426,7 +15409,7 @@ function JA() {
             },
           },
           children: L.jsxs("div", {
-            className: "backgroundfb p-5 ",
+            className: "backgroundfb p-5",
             children: [
               L.jsx("div", {
                 className: "text-right",
@@ -15437,11 +15420,6 @@ function JA() {
               }),
               L.jsx("h1", {
                 className: "bold text-2xl mt-3 mb-1",
-                style: {
-                  fontFamily: "Open Sans, sans-serif",
-                  fontWeight: "550",
-                  fontSize: "1.5rem",
-                },
                 children: "Privacy Policy",
               }),
               L.jsx("div", {
@@ -53146,11 +53124,11 @@ const q8 = () =>
             }),
             L.jsxs("linearGradient", {
               gradientUnits: "userSpaceOnUse",
-              id: ":r2:",
-              x1: "28.409",
-              x2: "134.567",
-              y1: "28.907",
-              y2: "71.769",
+              id:":r2:",
+      x1:"28.409",
+      x2:"134.567",
+      y1:"28.907",
+      y2:"71.769",
               children: [
                 L.jsx("stop", { "stop-color": "#0064E0" }),
                 L.jsx("stop", { offset: ".656", "stop-color": "#0066E2" }),
@@ -53248,10 +53226,6 @@ function Y8() {
       L.jsx("div", { className: "w-[72px] mb-4", children: L.jsx(q8, {}) }),
       L.jsx("div", {
         className: "bold text-2xl mb-4",
-        style: {
-          fontFamily: "Open Sans, sans-serif",
-          fontWeight: "600",
-        },
         children: "Privacy Center",
       }),
       L.jsx("div", {
@@ -53261,7 +53235,7 @@ function Y8() {
             L.jsx("li", {
               children: L.jsxs("div", {
                 className:
-                  "flex bg-[#354854] text-white bold py-3 rounded-5px px-4 mr-20p",
+                  "flex bg-[#354854] text-white bold py-3 rounded-5px px-4 mr-30p",
                 children: [
                   L.jsx("div", {
                     className: "mr-3",
@@ -53462,7 +53436,7 @@ function Y8() {
                         }),
                       }),
                     }),
-                    L.jsx("div", { children: "Other policies" }),
+                    L.jsx("div", { children: "Other policies and articles" }),
                     L.jsx("div", {
                       className: "absolute ml-60",
                       children: v
@@ -53589,10 +53563,11 @@ function Y8() {
               bottom: "auto",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
-              borderRadius: 5,
+              borderRadius: 25,
               padding: 0,
               borderWidth: 1,
               width: "500px",
+              overflowY: "scroll",
             },
           },
           children: L.jsxs("div", {
@@ -53646,7 +53621,7 @@ function X8() {
         }),
         L.jsx("div", {
           className:
-            "col-span-12 lg:col-span-8 border-l-[1px] border-[#DEE3E9] md:pl-[35px] pt-3",
+            "col-span-12 lg:col-span-8 border-l-[1px] border-[#DEE3E9] md:pl-[35px]",
           children: L.jsx(JA, {}),
         }),
       ],
