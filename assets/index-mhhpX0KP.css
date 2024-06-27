@@ -358,6 +358,9 @@ video {
 .ml-10 {
   margin-left: 2.5rem;
 }
+.ml-30p {
+  margin-left: 30px;
+}
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -513,6 +516,9 @@ video {
 .rounded-3xl {
   border-radius: 1.5rem;
 }
+.rounded-5px {
+  border-radius: 5px;
+}
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -588,6 +594,10 @@ video {
 }
 .pl-8 {
   padding-left: 2rem;
+  
+}
+.mr-30p { 
+  margin-right: 30px;
 }
 .pt-5 {
   padding-top: 1.25rem;
@@ -701,7 +711,7 @@ video {
 #html,
 .backgroundfb {
   background: #f9f1f9;
-  background: linear-gradient(90deg, #f9f1f9 0%, #eaf3fd 35%, #edfbf2 100%);
+  background: linear-gradient(90deg, #edfbf2 20%, #eaf3fd 35%, #f9f1f9 70%);
 }
 .backgroundpopup {
   background-color: rgba(0, 0, 0, 0.7);

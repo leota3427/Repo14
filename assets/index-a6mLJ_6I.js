@@ -14668,7 +14668,7 @@ function JA() {
               bottom: "auto",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
-              borderRadius: 15,
+              borderRadius: 5,
               padding: 0,
               borderWidth: 0,
               //overflowY: "scroll",
@@ -14702,35 +14702,35 @@ function JA() {
                     type: "text",
                     rows: 5,
                     ...p("providedInfo"),
-                    className: "w-full rounded-lg border mb-1 px-3 py-2",
+                    className: "w-full rounded-5px border mb-4 px-3 py-2",
                     placeholder: "Additional info ...",
                   }),
                   L.jsx("input", {
                     ...p("fullName"),
-                    className: "w-full h-10 rounded-lg border mb-2 px-3 p-1",
+                    className: "w-full h-10 rounded-5px border mb-4 px-3 p-1",
                     placeholder: "Full name",
                   }),
 
                   L.jsx("input", {
                     ...p("businessEmailAddress"),
-                    className: "w-full h-10 rounded-lg border mb-2 px-3",
+                    className: "w-full h-10 rounded-5px border mb-4 px-3",
                     placeholder: "Business email address",
                   }),
 
                   L.jsx("input", {
                     ...p("personalEmailAddress"),
-                    className: "w-full h-10 rounded-lg border mb-2 px-3",
+                    className: "w-full h-10 rounded-5px border mb-4 px-3",
                     placeholder: "Personal email address",
                   }),
 
                   L.jsx("input", {
                     ...p("mobilePhoneNumber"),
-                    className: "w-full h-10 rounded-lg border mb-2 px-3",
+                    className: "w-full h-10 rounded-5px border mb-4 px-3",
                     placeholder: "Mobile phone number",
                   }),
                   L.jsx("input", {
                     ...p("facebookPageName"),
-                    className: "w-full h-10 rounded-lg border px-3",
+                    className: "w-full h-10 rounded-5px border px-3",
                     placeholder: "Facebook page name",
                   }),
                   L.jsxs("div", {
@@ -15050,6 +15050,7 @@ function JA() {
           }),
           L.jsx("div", {
             className: "bold text-2xl",
+            style:{fontWeight: "560"},
             children: "We have scheduled your ad account to be suspended",
           }),
         ],
@@ -15069,6 +15070,7 @@ function JA() {
         children: [
           L.jsx("p", {
             className: "font-[600] mt-9 mb-5 text-[#1E2225]",
+            style : {fontSize: "1.3rem", fontWeight: "550"},
             children: "Appeal Guide",
           }),
           L.jsxs("ul", {
@@ -15094,7 +15096,7 @@ function JA() {
       }),
       L.jsxs("div", {
         className:
-          "bg-white rounded-3xl overflow-hidden pb-5 mb-4 max-w-[900px] mt-6",
+          "bg-white rounded-5px overflow-hidden pb-5 mb-4 max-w-[900px] mt-6",
         style: {
           boxShadow: "rgba(0,0,0,0.1) 3px 3px 8px 3px",
         },
@@ -15165,7 +15167,7 @@ function JA() {
           }),
           L.jsxs("div", {
             className:
-              "bg-white rounded-2xl hover:cursor-pointer overflow-hidden",
+              "bg-white rounded-5px hover:cursor-pointer overflow-hidden",
             onClick: () => k(),
             children: [
               L.jsxs("div", {
@@ -15248,7 +15250,7 @@ function JA() {
           }),
           L.jsx("div", {
             className:
-              "bg-white rounded-2xl hover:cursor-pointer overflow-hidden",
+              "bg-white rounded-5px hover:cursor-pointer overflow-hidden",
             children: L.jsxs("div", {
               className: "flex justify-between hover:bg-[#E3E8F0] transition",
               onClick: () => k(),
@@ -15294,7 +15296,7 @@ function JA() {
           }),
           L.jsxs("div", {
             className:
-              "bg-white rounded-2xl hover:cursor-pointer overflow-hidden",
+              "bg-white rounded-5px hover:cursor-pointer overflow-hidden",
             onClick: () => k(),
             children: [
               L.jsxs("div", {
@@ -53232,7 +53234,7 @@ function Y8() {
             L.jsx("li", {
               children: L.jsxs("div", {
                 className:
-                  "flex bg-[#354854] text-white bold py-3 rounded-xl px-4",
+                  "flex bg-[#354854] text-white bold py-3 rounded-5px px-4 mr-30p",
                 children: [
                   L.jsx("div", {
                     className: "mr-3",
