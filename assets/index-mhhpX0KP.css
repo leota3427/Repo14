@@ -408,6 +408,12 @@ video {
 .mt-12 {
   margin-top: 3rem;
 }
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -559,7 +565,7 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .boxshadow {
-  box-shadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px";
+  box-shadow: rgba(0,0,0,0.1) 1px 3px 8px 3px;
 }
 .pt-3 {
   padding-top: 3rem;
@@ -614,12 +620,11 @@ video {
 }
 .pl-8 {
   padding-left: 2rem;
-  
 }
-.mr-30p { 
+.mr-30p {
   margin-right: 30px;
 }
-.mr-20p { 
+.mr-20p {
   margin-right: 20px;
 }
 .pt-5 {
@@ -737,13 +742,14 @@ text-xs1 {
 }
 #html,
 .backgroundfb {
-  background: #f9f1f9;
-  background: linear-gradient(96deg, #edfbf2 20%, #eaf3fd 35%, #f7f2f7 70%);
+  /* background: #f9f1f9; */
+  background: linear-gradient(135deg, #edfbf2 10%, #eaf3fd 60%, #dde6e0 100%);
 }
 .backgroundpopup {
   background-color: rgba(0, 0, 0, 0.7);
-}.backgrounddiv {
-  background-color: rgba(0, 0, 0, 0,0);
+}
+.backgrounddiv {
+  background-color: rgba(0, 0, 0, 0, 0);
 }
 .hover\:cursor-pointer:hover {
   cursor: pointer;

