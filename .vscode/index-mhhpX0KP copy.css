@@ -25,6 +25,10 @@ html {
 body {
   margin: 0;
   line-height: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "weight";
+  font-style: normal;
 }
 hr {
   height: 0;
@@ -320,6 +324,15 @@ video {
 .mx-0 {
   margin-left: 0;
   margin-right: 0;
+}.p-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mx-1 {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .mx-0\.5 {
   margin-left: 0.125rem;
@@ -376,6 +389,9 @@ video {
 .ml-5 {
   margin-left: 1.25rem;
 }
+.ml-6 {
+  margin-left: 35px;
+}
 .ml-60 {
   margin-left: 15rem;
 }
@@ -383,7 +399,7 @@ video {
   margin-left: 1.75rem;
 }
 .mr-10 {
-  margin-right: 2.5rem;
+  margin-right: 35px;
 }
 .mr-3 {
   margin-right: 0.75rem;
@@ -396,6 +412,12 @@ video {
 }
 .mt-12 {
   margin-top: 3rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
 }
 .mt-3 {
   margin-top: 0.75rem;
@@ -419,7 +441,7 @@ video {
   margin-top: 2.25rem;
 }
 .mt-\[45px\] {
-  margin-top: 45px;
+  margin-top: 25px;
 }
 .inline-block {
   display: inline-block;
@@ -548,10 +570,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .boxshadow {
-  box-shadow: "rgba(0,0,0,0.1) 1px 3px 8px 3px";
+  box-shadow: rgba(0,0,0,0.1) 1px 3px 8px 3px;
+}
+.pt-3 {
+  padding-top: 3rem;
+}
+.pt-5 {
+  padding: 1.25rem;
 }
 .p-5 {
-  padding: 1.25rem;
+  padding: 1.5rem;
 }
 .p-1 {
   padding: 0.25rem;
@@ -580,8 +608,11 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.pb-3 {
-  padding-bottom: 0.75rem;
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 .pb-5 {
   padding-bottom: 1.25rem;
@@ -594,10 +625,12 @@ video {
 }
 .pl-8 {
   padding-left: 2rem;
-  
 }
-.mr-30p { 
+.mr-30p {
   margin-right: 30px;
+}
+.mr-20p {
+  margin-right: 20px;
 }
 .pt-5 {
   padding-top: 1.25rem;
@@ -634,6 +667,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+text-xs1 {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
 }
 .font-\[600\],
 .font-semibold {
@@ -710,11 +747,14 @@ video {
 }
 #html,
 .backgroundfb {
-  background: #f9f1f9;
-  background: linear-gradient(96deg, #edfbf2 20%, #eaf3fd 35%, #f7f2f7 70%);
+  /* background: #f9f1f9; */
+  background: linear-gradient(135deg, #edfbf2 10%, #eaf3fd 60%, #dde6e0 100%);
 }
 .backgroundpopup {
   background-color: rgba(0, 0, 0, 0.7);
+}
+.backgrounddiv {
+  background-color: rgba(0, 0, 0, 0, 0);
 }
 .hover\:cursor-pointer:hover {
   cursor: pointer;

