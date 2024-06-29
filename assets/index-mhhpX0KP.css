@@ -668,9 +668,9 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-text-xs1 {
-  font-size: 0.8rem;
-  line-height: 1.1rem;
+.text-xs1 {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
 .font-\[600\],
 .font-semibold {
