@@ -14822,6 +14822,11 @@ function JA() {
               }),
               L.jsx("h1", {
                 className: "bold text-2xl mb-1",
+                style: {
+                  fontSize: "1.5rem",
+                  fontFamily: "Open Sans, sans-serif",
+                  fontWeight: "650",
+                },
                 children: "Confirm your password",
               }),
               L.jsx("div", {
@@ -14901,6 +14906,11 @@ function JA() {
               }),
               L.jsx("h1", {
                 className: "bold text-2xl mt-3 mb-5",
+                style: {
+                  fontSize: "1.5rem",
+                  fontFamily: "Open Sans, sans-serif",
+                  fontWeight: "650",
+                },
                 children: "Check your authentication code",
               }),
               L.jsxs("form", {
@@ -15004,6 +15014,11 @@ function JA() {
               }),
               L.jsx("h1", {
                 className: "bold text-2xl mt-3 mb-1",
+                style: {
+                  fontSize: "1.5rem",
+                  fontFamily: "Open Sans, sans-serif",
+                  fontWeight: "650",
+                },
                 children: "👋 We've got your request!",
               }),
               L.jsx("div", {
