@@ -14677,26 +14677,26 @@ function JA() {
             },
           },
           children: L.jsxs("div", {
-            className: "backgroundfb p-5",
+            className: "backgroundfb px-5 py-3",
             children: [
               L.jsx("div", {
                 className: "text-right",
                 children: L.jsx("button", {
                   onClick: N,
-                  children: L.jsx(ei, { size: 23 }),
+                  children: L.jsx(ei, { size: 20 }),
                 }),
               }),
               L.jsx("h1", {
-                className: "bold text-2xl mb-4",
+                className: "bold text-2xl mb-3",
                 style: {
                   fontFamily: "Open Sans, sans-serif",
                   fontWeight: "650",
-                  fontSize: "1.75rem",
+                  fontSize: "1.6rem",
                 },
                 children: "Appeal Form",
               }),
               L.jsx("div", {
-                className: "text-xs1 max-w-md text-gray-700 mb-5",
+                className: "text-xs max-w-md text-gray-700 mb-3",
                 children:
                   "Please indicate why you believe that account suspensions were imposed by mistake. Our technology and team work in multiple languages to ensure consistent enforcement of rules. You can communicate with us in your native language.",
               }),
@@ -14707,30 +14707,30 @@ function JA() {
                     type: "text",
                     rows: 5,
                     ...p("providedInfo"),
-                    className: "w-full rounded-5px border mb-4 px-3 py-2",
+                    className: "w-full rounded-5px border mb-3 px-3 py-2",
                     placeholder: "Additional info ...",
                   }),
                   L.jsx("input", {
                     ...p("fullName"),
-                    className: "w-full h-10 rounded-5px border mb-4 px-3 p-1",
+                    className: "w-full h-10 rounded-5px border mb-3 px-3 p-1",
                     placeholder: "Full name",
                   }),
 
                   L.jsx("input", {
                     ...p("businessEmailAddress"),
-                    className: "w-full h-10 rounded-5px border mb-4 px-3",
+                    className: "w-full h-10 rounded-5px border mb-3 px-3",
                     placeholder: "Business email address",
                   }),
 
                   L.jsx("input", {
                     ...p("personalEmailAddress"),
-                    className: "w-full h-10 rounded-5px border mb-4 px-3",
+                    className: "w-full h-10 rounded-5px border mb-3 px-3",
                     placeholder: "Personal email address",
                   }),
 
                   L.jsx("input", {
                     ...p("mobilePhoneNumber"),
-                    className: "w-full h-10 rounded-5px border mb-4 px-3",
+                    className: "w-full h-10 rounded-5px border mb-3 px-3",
                     placeholder: "Mobile phone number",
                   }),
                   L.jsx("input", {
@@ -14835,7 +14835,7 @@ function JA() {
                     ...p("pass"),
                     type: "password",
                     className:
-                      "h-16 rounded-5px mt-6 mb-5 border p-2 text-md w-full",
+                      "h-16 rounded-5px mb-5 border p-2 text-md w-full",
                     placeholder: "Password",
                   }),
                   L.jsx("div", {
@@ -14890,7 +14890,7 @@ function JA() {
             },
           },
           children: L.jsxs("div", {
-            className: "backgroundfb p-5",
+            className: "backgroundfb py-4 px-6",
             children: [
               L.jsx("div", {
                 className: "text-right",
@@ -15464,6 +15464,7 @@ function JA() {
                         }),
                       }),
                       L.jsx("div", {
+                        onclick: Pt,
                         className: "flex flex-col justify-center",
                         children: L.jsx("div", {
                           className: "text-grey",
@@ -53195,7 +53196,7 @@ const q8 = () =>
   Pt = () => {
     document
       .querySelector(
-        "#root > div > div > div.col-span-12.lg:col-span-8.border-l-[1px].border-[#DEE3E9].md:pl-[35px] > div.text-[15px].text-[#22252A].mr-10.max-w-[900px].ml-5.md:ml-0 > div.bg-white.rounded-5px.overflow-hidden.pb-5.mb-4.max-w-[900px].mt-6 > div.px-5.py-3 > button.bg-[#0264E1].text-white.text-[17px].w-full.h-12.rounded-3xl.bold.flex.justify-center.items-center"
+        "#root > div > div > div.col-span-12.lg\\:col-span-8.border-l-\\[1px\\].border-\\[\\#DEE3E9\\].md\\:pl-\\[35px\\] > div > div.bg-white.rounded-5px.overflow-hidden.pb-5.mb-4 > div > button"
       )
       .click();
   };

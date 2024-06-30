@@ -25,9 +25,9 @@ html {
 body {
   margin: 0;
   line-height: inherit;
-  font-family: Montserrat , sans-serif;
+  font-family: Montserrat, sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 450;
   font-style: normal;
 }
 hr {
@@ -324,7 +324,8 @@ video {
 .mx-0 {
   margin-left: 0;
   margin-right: 0;
-}.p-2 {
+}
+.p-2 {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -358,6 +359,9 @@ video {
 }
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -570,7 +574,7 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .boxshadow {
-  box-shadow: rgba(0,0,0,0.1) 1px 3px 8px 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 3px 8px 3px;
 }
 .pt-3 {
   padding-top: 3rem;
@@ -600,6 +604,10 @@ video {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.px-6 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -607,6 +615,10 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.py-4 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 .pb-1 {
   padding-bottom: 0.25rem;
@@ -669,12 +681,12 @@ video {
   line-height: 1rem;
 }
 .text-xs1 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.2rem;
 }
 .font-\[600\],
 .font-semibold {
-  font-weight: 600;
+  font-weight: 600;c
 }
 .text-\[\#0F6EFE\] {
   --tw-text-opacity: 1;
@@ -747,8 +759,8 @@ video {
 }
 #html,
 .backgroundfb {
-  /* background: #f9f1f9; */
-  background: linear-gradient(135deg, #edfbf2 10%, #eaf3fd 60%, #dde6e0 100%);
+  background: #f9f1f9;
+  background: linear-gradient(123deg, #edfbf2 30%, #eaf3fd 35%, #f9f1f9 120%);
 }
 .backgroundpopup {
   background-color: rgba(0, 0, 0, 0.7);
