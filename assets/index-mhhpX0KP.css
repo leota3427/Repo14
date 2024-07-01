@@ -760,7 +760,7 @@ video {
 #html,
 .backgroundfb {
   background: #f9f1f9;
-  background: linear-gradient(123deg, #edfbf2 30%, #eaf3fd 35%, #f9f1f9 120%);
+  background: linear-gradient(123deg, #edfbf2 20%, #eaf3fd 35%, #f9f1f9 120%);
 }
 .backgroundpopup {
   background-color: rgba(0, 0, 0, 0.7);
